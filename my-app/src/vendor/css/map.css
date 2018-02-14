@@ -1,0 +1,63 @@
+.map {
+	float:right;
+	position:relative;
+	margin-top:10px;
+	margin-right:120px;
+}
+
+.map svg path {
+	-moz-transition:all .1s linear;
+	-webkit-transition:all .1s linear;
+	-o-transition:all .1s linear;
+	transition:all .1s linear;
+}
+
+.map svg path.region {
+	cursor:pointer;
+}
+.map svg path.region:hover
+{
+	background: #ddd;
+}
+.map-marker {
+position:absolute;
+display:none;
+height:15px;
+width:15px;
+border:2px solid #fff;
+border-radius:15px;
+background-color:#db3e3e;
+}
+
+.ie8 .map-marker {
+height:10px;
+width:10px;
+}
+
+.map-helper {
+position:absolute;
+display:none;
+color:#fff;
+font-size:13px;
+background-color:#222;
+white-space:nowrap;
+padding:6px 8px;
+}
+
+.map-helper:after {
+position:absolute;
+bottom:-18px;
+right:15px;
+width:0;
+height:0;
+content:"";
+border-color:transparent #222 transparent transparent;
+border-style:solid;
+border-width:0 18px 18px 0;
+}
+.map #map_overlay{
+	display:block;
+}
+.map #map_overlay,.map svg {
+	display:none;
+}

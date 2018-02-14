@@ -1,0 +1,47 @@
+#section0,
+#section1,
+#section2,
+#section3,
+#section4
+{
+    background-size: cover;
+}
+
+/* Defining each sectino background and styles 
+* --------------------------------------- */
+#section0{
+    background-image: url(../img/bg3.jpg);
+    padding: 0% 0 0 0;
+}
+#section1{
+    background-image: url(../img/bg3.jpg);
+    padding: 0% 0 0 0;
+}
+#section2{
+        background-image: url(../img/bg3.jpg);
+    padding: 0% 0 0 0;
+}
+#section3{
+    background-image: url(../img/bg3.jpg);
+    padding: 0% 0 0 0;
+}
+#section4{
+    background-image: url(../img/bg3.jpg);
+    padding: 0% 0 0 0;
+}
+
+.teachers-abs-container .abs-block h3 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+.footer{
+    color: white;
+    text-align: left;
+}
+.slimScrollBar{border-radius: 0 !important}
+.slimScrollRail{border-radius: 0 !important}
+.slimtest{padding-right: 15px;}
+.m-0{margin-right: 0;margin-left: 0}
+img{max-width: 100%;}

@@ -1,0 +1,25 @@
+body {overflow-x: hidden;overflow: hidden;}
+html, body {height:100%; padding:0;}
+a{text-decoration:none; outline:none;}
+.column{float:left; position:relative;}
+.first{
+	margin-left:0 !important;
+}
+.orange{background:#000;background-attachment: fixed;}
+.yellow{background :#000;background-attachment: fixed;}
+.blue{background :#000;background-attachment: fixed;}
+.green{background :#000;background-attachment: fixed;}
+.trans{background :#000;background-attachment: fixed;}
+.grey{background:#000;background-attachment: fixed;}
+.blue-2{ background:#000;background-attachment: fixed;} 
+/* Main Nav */
+
+/* Content CSS Start */
+.content-holder{ width:100%;height: 100%;position: absolute;top: 0px;left: 0px;padding-bottom: 40px;}
+/* Content CSS Start */
+/* ========= Scroll Container =========== */
+.swiper-scroll-container .swiper-slide { width: 1000% !important;}
+.slid-div{ float:left; width:800px; color:#000;}
+.slid-div img{ width:100%;}
+/* ========= Scroll Container End =========== */
+
